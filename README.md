@@ -12,20 +12,24 @@ unpacks it into `tests/fixtures`.
 
 ## Layout
 
-| Path                 | Contents                                                                                         |
-| -------------------- | ------------------------------------------------------------------------------------------------ |
-| `cases.txt`          | the `x509` argument sets every certificate is run with                                           |
-| `cavp/drbg/`         | NIST CAVP HMAC_DRBG vectors (`HMAC_DRBG.rsp` of each mode of `drbgtestvectors.zip`), unchanged   |
-| `certs/`             | the certificates, PEM                                                                            |
-| `golden/<p>/`        | OpenSSL's output for each certificate and case, per profile: `v30` (3.0), `v3` (3.5), `v4` (4.1) |
-| `golden/<p>/VERSION` | the OpenSSL binary that produced that profile                                                    |
-| `keys/`              | key pairs OpenSSL generated, for the curve arithmetic                                            |
+| Path                 | Contents                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------- |
+| `cases.txt`          | the `x509` argument sets every certificate is run with                                            |
+| `cavp/drbg/`         | NIST CAVP HMAC_DRBG vectors (`HMAC_DRBG.rsp` of each mode of `drbgtestvectors.zip`), unchanged    |
+| `cavp/ecdsa/`        | NIST CAVP ECDSA vectors (`SigVer.rsp` and `SigGen.txt` of `186-4ecdsatestvectors.zip`), unchanged |
+| `ecdsa/`             | ECDSA signatures made by OpenSSL, for verification                                                |
+| `certs/`             | the certificates, PEM                                                                             |
+| `golden/<p>/`        | OpenSSL's output for each certificate and case, per profile: `v30` (3.0), `v3` (3.5), `v4` (4.1)  |
+| `golden/<p>/VERSION` | the OpenSSL binary that produced that profile                                                     |
+| `keys/`              | key pairs OpenSSL generated, for the curve arithmetic                                             |
 
 Every file is compared byte for byte, so `.gitattributes` turns off line-ending
 conversion.
 
 ## Where the files come from
 
+- `cavp/ecdsa/SigVer.rsp` and `cavp/ecdsa/SigGen.txt`: from NIST's [`186-4ecdsatestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/digital-signatures), unchanged. `SigGen.txt`, not `SigGen.rsp`, because it also gives the private key and the nonce.
+- `ecdsa/openssl-signatures.txt`: baldssl's `scripts/gen-ecdsa-signatures.sh`.
 - `cavp/drbg/HMAC_DRBG_<mode>.rsp`: the `HMAC_DRBG.rsp` of `drbgvectors_no_reseed.zip`, `drbgvectors_pr_false.zip` and `drbgvectors_pr_true.zip`, inside NIST's [`drbgtestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/random-number-generators), unchanged.
 
 baldssl's scripts write them, from real OpenSSL binaries, into baldssl's
