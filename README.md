@@ -32,7 +32,7 @@ conversion.
 
 - `cavp/ecdsa/SigVer.rsp` and `cavp/ecdsa/SigGen.txt`: from NIST's [`186-4ecdsatestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/digital-signatures), unchanged. `SigGen.txt`, not `SigGen.rsp`, because it also gives the private key and the nonce.
 - `ecdsa/openssl-signatures.txt`: baldssl's `scripts/gen-ecdsa-signatures.sh`.
-- `req/subj-names.txt` and `req/requests.txt`: baldssl's `scripts/gen-subj-names.py` and `scripts/gen-requests.py`.
+- `req/subj-names.txt`, `req/requests.txt` and `req/certificates.txt`: baldssl's `scripts/gen-subj-names.py`, `scripts/gen-requests.py` and `scripts/gen-certificates.py`.
 - `ed25519/`: baldssl's `scripts/gen-ed25519-vectors.py`, from the `cases.json` of [ed25519-speccheck](https://github.com/novifinancial/ed25519-speccheck) at commit `65519336fda7` (Chalkias, Garillot and Nikolaenko, [ePrint 2020/1244](https://eprint.iacr.org/2020/1244)).
 - `cavp/drbg/HMAC_DRBG_<mode>.rsp`: the `HMAC_DRBG.rsp` of `drbgvectors_no_reseed.zip`, `drbgvectors_pr_false.zip` and `drbgvectors_pr_true.zip`, inside NIST's [`drbgtestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/random-number-generators), unchanged.
 
