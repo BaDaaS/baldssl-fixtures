@@ -1,0 +1,24 @@
+# Argument sets compared against OpenSSL, one per line: <case>|<args>.
+# Used by scripts/interop.sh (live, against several OpenSSL versions) and
+# scripts/gen-golden.sh (golden files for `cargo test`). `-in <file>` is
+# prepended by both.
+text|-text
+text-noout|-text -noout
+pem|
+subject|-noout -subject
+issuer|-noout -issuer
+serial|-noout -serial
+startdate|-noout -startdate
+enddate|-noout -enddate
+dates|-noout -dates
+order|-noout -enddate -subject -serial
+order-dup|-noout -subject -enddate -subject
+order-text-last|-noout -fingerprint -sha256 -text
+fp-sha1|-noout -fingerprint -sha1
+fp-sha224|-noout -fingerprint -sha224
+fp-sha256|-noout -fingerprint -sha256
+fp-sha256-upper|-noout -fingerprint -SHA256
+fp-sha384|-noout -fingerprint -sha384
+fp-sha512|-noout -fingerprint -sha512
+double-dash|--noout --text
+inform-pem|-inform PEM -noout -subject

@@ -1,0 +1,31 @@
+sha256 Fingerprint=2C:7D:9D:0D:0E:CB:93:FC:CD:3F:64:26:20:BC:C9:BC:D2:39:19:BB:F4:05:62:9A:7A:26:26:31:E7:94:9D:57
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            78:3e:bb:76:60:8b:f9:06:97:c4:7e:87:9c:1d:c1:3e:74:76:39:a8
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=a + OU=b, O=Comma, Inc., DC=example, DC=com
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN=a + OU=b, O=Comma, Inc., DC=example, DC=com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit field, 128 bit security level)
+                pub:
+                    04:d9:60:ae:86:8b:de:05:66:61:4e:66:a9:a1:49:da:
+                    57:ce:1c:e1:0b:c4:48:e2:89:72:44:dc:e0:b3:63:58:
+                    90:d3:fe:9d:9f:02:9a:2a:43:cc:80:99:47:68:f9:52:
+                    3c:bc:60:ab:80:a0:c9:51:be:b2:fa:90:11:69:be:59:
+                    e7
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                B2:92:FE:63:8B:83:BB:0A:CB:49:1C:0A:4E:60:5F:4D:E7:63:04:31
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:45:02:20:1e:d2:7d:7d:2e:f0:2e:77:8f:46:f2:5b:dc:9f:19:12:80:d3:36:51:
+        37:fe:a7:dc:a8:03:76:20:96:fa:1a:ab:02:21:00:da:39:68:0b:d6:89:db:52:4d:
+        0a:a7:9b:0b:4b:c3:9a:4d:55:c1:9b:f0:f7:bc:e5:5c:e7:51:c3:a2:b0:92:b9

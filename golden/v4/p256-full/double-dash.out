@@ -1,0 +1,38 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            5a:cb:d1:f8:3c:63:97:e6:f3:e0:d9:8d:ee:23:c1:c5:4a:4a:41:65
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=BE, O=BaDaaS, CN=full.example
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: C=BE, O=BaDaaS, CN=full.example
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit field, 128 bit security level)
+                pub:
+                    04:8e:bb:43:68:3a:01:60:c3:92:72:be:cd:8c:1a:1c:
+                    82:c0:a5:16:cb:7d:a3:d7:d0:0b:f0:d5:c9:f7:e5:5a:
+                    cb:96:ed:b5:5c:72:77:98:16:d7:9d:8c:63:ef:87:33:
+                    c2:d0:47:2f:8f:5e:e4:d0:b6:c1:2b:6e:80:ec:cd:c6:
+                    44
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:a.example, DNS:b.example, IP Address:10.0.0.1, IP Address:2001:DB8:0:0:0:0:0:1, email:x@example.com, URI:https://example.com/, Registered ID:1.2.3.4
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement, Certificate Sign, CRL Sign, Encipher Only, Decipher Only
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication, Code Signing, E-mail Protection, Time Stamping, OCSP Signing, 1.2.3.4.5
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:2
+            X509v3 Subject Key Identifier: 
+                D4:FC:65:A2:C4:03:63:2D:B7:C1:C4:98:62:6B:28:39:A0:13:95:42
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:46:02:21:00:e6:2c:25:fa:4d:e9:f2:84:3c:21:a8:f6:58:d7:98:4b:2e:dc:ee:
+        a3:71:7e:cf:61:d9:7d:d4:a9:b8:6e:e0:8f:02:21:00:d1:16:a3:7c:8f:5d:30:37:
+        3c:ad:28:58:22:8f:31:56:dc:e1:ca:95:f6:22:3d:60:43:56:17:94:9a:a1:0e:40

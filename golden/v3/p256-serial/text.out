@@ -1,0 +1,39 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4660 (0x1234)
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=serial
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN=serial
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:2b:73:de:03:1f:90:d6:33:a1:ec:4a:86:20:f3:
+                    cd:17:e9:4e:87:4e:e9:1f:53:8a:e4:e3:95:48:6d:
+                    d4:e6:e4:a5:9e:e8:8a:2d:f8:19:db:3d:ee:80:8f:
+                    ce:93:66:03:41:ae:5b:74:df:ac:4b:88:2e:58:2a:
+                    43:cc:3c:b7:61
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                8F:07:E5:C2:E6:5E:58:AE:A2:7E:A7:E6:AF:07:05:70:A2:07:40:3F
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:45:02:21:00:ef:86:54:94:d2:db:20:71:e7:23:88:80:e2:
+        02:78:e4:9b:f9:f9:5a:78:f6:c8:ad:ce:8f:9f:1e:66:41:46:
+        d7:02:20:24:7a:86:66:95:00:02:8a:84:11:29:53:62:cd:08:
+        b3:4b:e8:74:a4:58:9e:a5:4f:ce:bc:a7:27:30:c0:64:c1
+-----BEGIN CERTIFICATE-----
+MIIBMjCB2aADAgECAgISNDAKBggqhkjOPQQDAjARMQ8wDQYDVQQDDAZzZXJpYWww
+HhcNMjYxMTIxMTIyOTI2WhcNMzYxMTE4MTIyOTI2WjARMQ8wDQYDVQQDDAZzZXJp
+YWwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQrc94DH5DWM6HsSoYg880X6U6H
+TukfU4rk45VIbdTm5KWe6Iot+BnbPe6Aj86TZgNBrlt036xLiC5YKkPMPLdhoyEw
+HzAdBgNVHQ4EFgQUjwflwuZeWK6ifqfmrwcFcKIHQD8wCgYIKoZIzj0EAwIDSAAw
+RQIhAO+GVJTS2yBx5yOIgOICeOSb+flaePbIrc6Pnx5mQUbXAiAkeoZmlQACioQR
+KVNizQizS+h0pFiepU/OvKcnMMBkwQ==
+-----END CERTIFICATE-----

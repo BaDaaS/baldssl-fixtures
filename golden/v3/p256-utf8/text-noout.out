@@ -1,0 +1,31 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            55:34:a1:e6:5a:54:ba:d4:ca:7c:68:4e:3b:da:40:6c:d5:74:ba:33
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=Hélène, O=Café
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN=Hélène, O=Café
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:7b:a2:88:f1:f8:6d:e5:23:40:b1:bc:e2:f4:7b:
+                    6d:49:e8:fa:e3:84:94:b5:5f:b6:93:23:d8:47:9c:
+                    02:2d:8e:14:e6:09:f4:89:e0:14:45:d5:a8:90:03:
+                    9e:bb:6c:ad:1c:c0:8c:5b:97:1d:44:20:76:d7:03:
+                    3b:a3:af:7d:d9
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                37:72:12:42:D1:B6:6D:FC:EE:22:C1:1F:DB:F0:7D:56:BB:A9:A5:D8
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:46:02:21:00:c1:fa:9c:a1:e4:76:f7:c8:6f:29:fd:70:c2:
+        88:c3:11:29:44:df:a7:77:42:a1:47:8a:ec:14:dd:35:bd:6c:
+        2e:02:21:00:d8:c6:dc:f2:02:b3:f1:4f:68:99:5b:09:9a:59:
+        2a:fe:59:b7:6d:fd:dc:ba:fd:0c:db:79:c0:1a:6b:8e:ec:48

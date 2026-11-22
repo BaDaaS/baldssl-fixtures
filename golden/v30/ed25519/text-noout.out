@@ -1,0 +1,27 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            53:32:25:28:e1:cb:3f:a6:f0:c9:37:82:4e:e6:87:6c:59:65:99:35
+        Signature Algorithm: ED25519
+        Issuer: CN = ed25519
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN = ed25519
+        Subject Public Key Info:
+            Public Key Algorithm: ED25519
+                ED25519 Public-Key:
+                pub:
+                    2d:5b:f3:0d:0f:09:58:8e:03:06:ca:bf:8b:7d:83:
+                    69:29:0a:0c:7a:0e:1a:cd:bc:e4:fd:89:95:63:d7:
+                    bb:d2
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                C4:A0:85:A5:46:B8:E4:9E:C9:B3:DC:FA:55:F4:9E:8F:31:AD:ED:8F
+    Signature Algorithm: ED25519
+    Signature Value:
+        65:bf:be:34:b1:19:e2:e8:d1:67:e6:9e:b4:20:2c:1c:e9:41:
+        dd:e7:5b:24:5a:df:ca:4a:5e:03:c5:e7:71:7b:24:41:d1:a6:
+        6e:46:f6:9e:7b:54:5d:6b:46:21:d4:73:45:7c:f7:76:48:92:
+        3c:41:19:75:bf:3c:62:fd:61:01

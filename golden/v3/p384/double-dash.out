@@ -1,0 +1,37 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            46:4b:e9:35:9c:30:d3:08:b4:59:3e:ec:eb:29:08:8e:ac:ce:5d:51
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: CN=p384
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN=p384
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub:
+                    04:e7:ac:a8:18:4e:ee:1e:e7:54:e3:18:b1:67:7c:
+                    50:20:a5:4f:46:8d:a8:72:5d:09:35:a9:be:5e:2c:
+                    5f:53:ea:8f:36:c0:2a:c9:cb:4c:1a:ac:34:fb:d8:
+                    36:5f:ba:ba:05:0c:3e:c5:55:ff:ad:7a:cd:81:81:
+                    26:0b:ca:fc:0c:82:b1:0e:8d:b5:5b:e9:c7:94:7a:
+                    b3:8b:92:6f:f3:83:b3:0a:3e:6e:65:a5:a5:c4:b7:
+                    1a:ac:6b:83:06:12:af
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:p384.example
+            X509v3 Subject Key Identifier: 
+                8B:77:FC:74:90:E2:C8:7A:21:7D:35:14:07:37:5E:5A:92:F2:E9:FD
+    Signature Algorithm: ecdsa-with-SHA384
+    Signature Value:
+        30:64:02:30:2e:c8:f9:84:10:75:3c:a1:99:4b:cb:eb:88:7d:
+        41:d6:36:19:10:ce:1a:42:ae:d8:a5:6f:35:c1:10:1c:75:64:
+        42:6f:ec:94:d0:d4:33:48:69:94:2d:d8:1b:c0:02:13:02:30:
+        11:f7:8f:43:82:d0:64:53:83:30:90:cc:36:cb:3f:37:1e:75:
+        38:af:f2:98:07:a1:9f:4c:48:3c:07:43:f3:24:63:c6:0e:02:
+        8c:87:d0:23:aa:54:ee:6b:02:04:58:b6

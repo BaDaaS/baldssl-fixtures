@@ -1,0 +1,51 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            70:88:5f:2f:93:e1:05:5f:df:66:3a:9b:2c:5f:ba:e3:8f:07:38:31
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: CN = p521
+        Validity
+            Not Before: Nov 21 12:29:26 2026 GMT
+            Not After : Nov 18 12:29:26 2036 GMT
+        Subject: CN = p521
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (521 bit)
+                pub:
+                    04:00:52:4d:b6:a0:db:2a:81:28:9d:64:0b:59:31:
+                    71:1a:3a:89:94:12:93:de:1f:0c:21:6b:84:78:23:
+                    7d:91:b3:e7:f3:fb:17:38:1b:57:c1:26:6d:fd:ec:
+                    4b:07:0c:04:6e:c7:a1:a7:86:cb:ad:5b:a6:71:ac:
+                    15:53:ac:72:92:c5:a5:01:91:4c:a9:ba:2a:71:f7:
+                    dc:28:88:01:b1:7e:32:c3:4c:49:14:47:8e:6b:fc:
+                    09:05:99:2e:0f:a0:e3:81:a5:91:f4:09:aa:c3:b9:
+                    db:28:ee:36:c1:5a:c8:b3:4b:00:e7:b1:2d:88:4a:
+                    12:9b:bc:d0:f4:a8:f5:d6:98:e7:c4:26:00
+                ASN1 OID: secp521r1
+                NIST CURVE: P-521
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                C8:15:09:2B:EE:ED:5F:7C:95:53:FC:06:6F:DC:B4:ED:B7:F4:A6:F1
+    Signature Algorithm: ecdsa-with-SHA512
+    Signature Value:
+        30:81:88:02:42:01:53:30:11:2e:a0:d0:c5:6e:ac:51:11:f3:
+        bf:03:97:ea:fa:cf:a5:2d:02:e2:bb:2b:62:14:cf:97:26:3c:
+        e7:2d:98:ae:10:ee:80:ea:36:e6:20:8a:9f:1e:87:d7:a9:81:
+        be:db:c1:47:7b:95:db:b5:6e:2e:71:b1:8a:1a:59:76:1a:02:
+        42:00:86:cf:38:a1:19:11:a6:e3:d8:c4:95:bd:39:b0:9d:7a:
+        72:dd:63:4f:c9:0f:9a:c4:f2:8b:f9:ae:02:2e:9d:64:3a:f6:
+        ef:fe:ce:99:8d:80:d2:ae:3b:c7:48:7a:99:24:9c:48:4c:4f:
+        31:99:90:5d:ca:ce:e6:5d:63:b6:f5:81:13
+-----BEGIN CERTIFICATE-----
+MIIByTCCASqgAwIBAgIUcIhfL5PhBV/fZjqbLF+6448HODEwCgYIKoZIzj0EAwQw
+DzENMAsGA1UEAwwEcDUyMTAeFw0yNjExMjExMjI5MjZaFw0zNjExMTgxMjI5MjZa
+MA8xDTALBgNVBAMMBHA1MjEwgZswEAYHKoZIzj0CAQYFK4EEACMDgYYABABSTbag
+2yqBKJ1kC1kxcRo6iZQSk94fDCFrhHgjfZGz5/P7FzgbV8Embf3sSwcMBG7HoaeG
+y61bpnGsFVOscpLFpQGRTKm6KnH33CiIAbF+MsNMSRRHjmv8CQWZLg+g44GlkfQJ
+qsO52yjuNsFayLNLAOexLYhKEpu80PSo9daY58QmAKMhMB8wHQYDVR0OBBYEFMgV
+CSvu7V98lVP8Bm/ctO239KbxMAoGCCqGSM49BAMEA4GMADCBiAJCAVMwES6g0MVu
+rFER878Dl+r6z6UtAuK7K2IUz5cmPOctmK4Q7oDqNuYgip8eh9epgb7bwUd7ldu1
+bi5xsYoaWXYaAkIAhs84oRkRpuPYxJW9ObCdenLdY0/JD5rE8ov5rgIunWQ69u/+
+zpmNgNKuO8dIepkknEhMTzGZkF3KzuZdY7b1gRM=
+-----END CERTIFICATE-----

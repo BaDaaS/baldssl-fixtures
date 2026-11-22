@@ -1,0 +1,31 @@
+# On a tag vN: build the archive from the tagged tree and publish it, with
+# its SHA-256, as the release baldssl downloads.
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions: {}
+
+jobs:
+  release:
+    runs-on: ubuntu-26.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - env:
+          TAG: ${{ github.ref_name }}
+        run: make archive TAG="$TAG"
+      - env:
+          TAG: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "$TAG" --title "$TAG" \
+            --notes "Fixtures archive: baldssl-fixtures-$TAG.tar.gz (SHA-256 in the .sha256 file)." \
+            "dist/baldssl-fixtures-$TAG.tar.gz" \
+            "dist/baldssl-fixtures-$TAG.tar.gz.sha256"
