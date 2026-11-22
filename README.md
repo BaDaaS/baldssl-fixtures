@@ -28,7 +28,8 @@ conversion.
 baldssl's scripts write them, from real OpenSSL binaries, into baldssl's
 `tests/fixtures`:
 
-- `scripts/gen-golden.sh --certs <openssl>` writes `certs/`, and
+- `scripts/gen-golden.sh --certs <openssl>` writes `certs/` (with
+  `scripts/gen-version-certs.py` for the `p256-version-*` certificates), and
   `scripts/gen-golden.sh <openssl-3.0> <openssl-3.5> <openssl-4.1>` writes
   `golden/`;
 - `scripts/gen-ec-vectors.sh` writes `keys/keypairs.txt`.
