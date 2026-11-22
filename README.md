@@ -33,6 +33,7 @@ conversion.
 
 - `cavp/ecdsa/SigVer.rsp` and `cavp/ecdsa/SigGen.txt`: from NIST's [`186-4ecdsatestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/digital-signatures), unchanged. `SigGen.txt`, not `SigGen.rsp`, because it also gives the private key and the nonce.
 - `ecdsa/openssl-signatures.txt`: baldssl's `scripts/gen-ecdsa-signatures.sh`.
+- `req/text-<line>.txt`: baldssl's `scripts/gen-request-texts.py`, run with OpenSSL 3.0.22 (`v30`), 3.5.9 (`v3`) and 4.1.0 (`v4`).
 - `x509-req/issued-<line>.txt`: baldssl's `scripts/gen-issued.py`, run with OpenSSL 3.0.22 (`v30`), 3.5.9 (`v3`) and 4.1.0 (`v4`).
 - `req/subj-names.txt`, `req/requests.txt` and `req/certificates.txt`: baldssl's `scripts/gen-subj-names.py`, `scripts/gen-requests.py` and `scripts/gen-certificates.py`.
 - `ed25519/`: baldssl's `scripts/gen-ed25519-vectors.py`, from the `cases.json` of [ed25519-speccheck](https://github.com/novifinancial/ed25519-speccheck) at commit `65519336fda7` (Chalkias, Garillot and Nikolaenko, [ePrint 2020/1244](https://eprint.iacr.org/2020/1244)).
