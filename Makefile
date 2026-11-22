@@ -16,7 +16,7 @@ help: ## Ask for help!
 archive: ## Build dist/baldssl-fixtures-<TAG>.tar.gz and its SHA-256
 	@test -n "$(TAG)" || { echo "TAG is not set"; exit 1; }
 	rm -rf dist && mkdir -p dist
-	set -o pipefail; git ls-files -z -- cases.txt cavp certs ecdsa ed25519 golden keys | \
+	set -o pipefail; git ls-files -z -- cases.txt cavp certs ecdsa ed25519 golden keys req | \
 		$(TAR) --null --files-from=- --sort=name --mtime=@0 \
 		--owner=0 --group=0 --numeric-owner --format=gnu \
 		--transform 's,^,$(NAME)/,' -cf - | gzip -n -9 \
