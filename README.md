@@ -20,6 +20,7 @@ unpacks it into `tests/fixtures`.
 | `ecdsa/`             | ECDSA signatures made by OpenSSL, for verification                                                |
 | `ed25519/`           | OpenSSL\'s Ed25519 verdicts on the ed25519-speccheck edge cases, and its signatures               |
 | `req/`               | How OpenSSL reads `req -subj`, and the requests it writes                                         |
+| `x509-req/`          | The certificates `x509 -req` issues, per OpenSSL release line                                     |
 | `certs/`             | the certificates, PEM                                                                             |
 | `golden/<p>/`        | OpenSSL's output for each certificate and case, per profile: `v30` (3.0), `v3` (3.5), `v4` (4.1)  |
 | `golden/<p>/VERSION` | the OpenSSL binary that produced that profile                                                     |
@@ -32,6 +33,7 @@ conversion.
 
 - `cavp/ecdsa/SigVer.rsp` and `cavp/ecdsa/SigGen.txt`: from NIST's [`186-4ecdsatestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/digital-signatures), unchanged. `SigGen.txt`, not `SigGen.rsp`, because it also gives the private key and the nonce.
 - `ecdsa/openssl-signatures.txt`: baldssl's `scripts/gen-ecdsa-signatures.sh`.
+- `x509-req/issued-<line>.txt`: baldssl's `scripts/gen-issued.py`, run with OpenSSL 3.0.22 (`v30`), 3.5.9 (`v3`) and 4.1.0 (`v4`).
 - `req/subj-names.txt`, `req/requests.txt` and `req/certificates.txt`: baldssl's `scripts/gen-subj-names.py`, `scripts/gen-requests.py` and `scripts/gen-certificates.py`.
 - `ed25519/`: baldssl's `scripts/gen-ed25519-vectors.py`, from the `cases.json` of [ed25519-speccheck](https://github.com/novifinancial/ed25519-speccheck) at commit `65519336fda7` (Chalkias, Garillot and Nikolaenko, [ePrint 2020/1244](https://eprint.iacr.org/2020/1244)).
 - `cavp/drbg/HMAC_DRBG_<mode>.rsp`: the `HMAC_DRBG.rsp` of `drbgvectors_no_reseed.zip`, `drbgvectors_pr_false.zip` and `drbgvectors_pr_true.zip`, inside NIST's [`drbgtestvectors.zip`](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/random-number-generators), unchanged.
